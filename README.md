@@ -1,3 +1,5 @@
+<!-- This is my GitHub README -->
+<!-- It describes what this repostitory is for -->
 # Emerging Technologies Submission 2022/2023
 **Declan Kelly** - **G00378925**<br>
 

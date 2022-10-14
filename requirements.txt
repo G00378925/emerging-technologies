@@ -1,4 +1,5 @@
 # This file contents the requirements to build my JupyterLite instance
+# Unused dependencies below are commented out, incase I need them later
 
 # bqplot
 # ipycanvas>=0.9.1

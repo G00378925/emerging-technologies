@@ -1,15 +1,18 @@
+# This yaml file contains the instructions for GitHub
+# to deploy my repository to GitHub actions
+
 name: Build and Deploy
 
-on:
+on: # Execute when something is pushed to repo
   push:
     branches:
       - main
   pull_request:
     branches:
-      - '*'
+      - '*' # Any branch
 
-jobs:
-  build:
+jobs: # Job instructions
+  build: # Ubuntu Linux distro
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -19,10 +22,10 @@ jobs:
         with:
           python-version: 3.8
       - name: Install the dependencies
-        run: |
+        run: | # Commands to install dependencies from requirements.txt
           python -m pip install -r requirements.txt
       - name: Build the JupyterLite site
-        run: |
+        run: | # Copy README into notebooks dir, jupyter outputs to dist directory
           cp README.md notebooks
           jupyter lite build --contents notebooks --output-dir dist
       - name: Upload artifact
@@ -31,7 +34,7 @@ jobs:
           path: ./dist
 
   deploy:
-    needs: build
+    needs: build # Make sure branch is main
     if: github.ref == 'refs/heads/main'
     permissions:
       pages: write
