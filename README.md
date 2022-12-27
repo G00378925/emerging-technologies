@@ -1,6 +1,10 @@
 <!-- This is my GitHub README -->
 <!-- It describes what this repostitory is for -->
 # Emerging Technologies Submission 2022/2023
+
+[![Python badge](https://img.shields.io/badge/language-python3-blue)](https://www.python.org/)
+[![Jupyter notebook badge](https://img.shields.io/badge/Jupyter%20Notebook-orange)](https://github.com/G00378925/emerging-technologies/search?l=jupyter-notebook)<br>
+
 **Declan Kelly** - **G00378925**<br>
 
 This repository contains my assessment submission for my university module [Emerging Technologies](https://www.gmit.ie/emerging-technologies)[0].
@@ -19,8 +23,10 @@ The topics to be covered in this assessment[1], are the following:
     2. 
 3. JupyterLite
 4. Computation
-    1. Growth rates/Big O notation
+    1. Growth Rate and Notation
     2. Turing machine
+    3. Bit Twiddling
+    4. Complex Numbers
 5. Fourier Transform
 6. Quantum Computing
     1. 
