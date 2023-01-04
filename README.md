@@ -28,8 +28,19 @@ The topics to be covered in this assessment[1], are the following:
     3. Bit Twiddling
     4. Complex Numbers
 5. Fourier Transform
+    1. Time vs Frequency Domain
+    2. Implementation of the DFT Algorithm
+    3. Generating a Sinusoidal Signal
+    4. Converting to the Frequency Domain
+    5. Plots of Parabolas
+    6. Quadratic Formula
 6. Quantum Computing
-    1. 
+    1. Flipping a Coin
+    2. Qiskit
+    3. Qubit
+    4. Quantum Logic Gates
+    5. Quantum Circuit
+    6. Deutsch’s Algorithm
 
 ## JupyterLite instance
 
