@@ -19,33 +19,15 @@ JupyterLite instance: [https://g00378925.github.io/emerging-technologies](https:
 The topics to be covered in this assessment[1], are the following:
 
 1. GitHub Pages and Actions
-    1. What is a server?
-    2. 
-3. JupyterLite
-4. Computation
-    1. Growth Rate and Notation
-    2. Turing machine
-    3. Bit Twiddling
-    4. Complex Numbers
-5. Fourier Transform
-    1. Time vs Frequency Domain
-    2. Implementation of the DFT Algorithm
-    3. Generating a Sinusoidal Signal
-    4. Converting to the Frequency Domain
-    5. Plots of Parabolas
-    6. Quadratic Formula
-6. Quantum Computing
-    1. Flipping a Coin
-    2. Qiskit
-    3. Qubit
-    4. Quantum Logic Gates
-    5. Quantum Circuit
-    6. Deutsch’s Algorithm
+2. JupyterLite
+3. Computation
+4. Fourier Transform
+5. Quantum Computing
 
 ## JupyterLite instance
 
 JupyterLite is lightweight, web-based version of [JupyterLab](https://jupyter.org/).
-In this project, an instance of JupyterLite [2] is hosted on GitHub pages.
+In this project, an instance of JupyterLite[2] is hosted on GitHub pages.
 
 To make is easier for people who may not have JupyterLab installed,
 I am using [GitHub Actions](https://docs.github.com/en/actions)
